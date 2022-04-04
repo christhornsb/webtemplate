@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --primary-color: #ffd272;
+  --secondary-color: #f000ff;
+}
+
+@layer base {
+  body {
+    @apply font-[PT+Sans]
+  }
+
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply p-3 border bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)]
+  }
+}
