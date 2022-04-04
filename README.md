@@ -1,3 +1,20 @@
+# WEB TEMPLATE
+
+The above repo is a web template for a ReactJS/TailwindCSS home page that consists of a navbar with animated selection effects, as well as a condensed window menu to select the same items, a custom logo, and a hero component that contains a looped video background, with a search bar configured in the center.
+
+Feel free to use this as a starting point for your ReactJS requirements, especially if you're utilizing TailwindCSS (if not, you can convert everything after "className:" within the .JSX files to .CSS, and uninstall the Tailwind packages, as well as removing the required files; I would recommend seeking the TailwindCSS documentation if you attempt conversion: https://tailwindcss.com/docs/guides/create-react-app).
+
+
+
+
+
+https://user-images.githubusercontent.com/90425848/161456172-ac3d45e2-70f2-4bb9-8d5f-b5774308e2b0.mp4
+
+
+
+Below is the required ReactJS documentation for configuration and launching if need be.
+#######################################################################################################################################################################
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
